@@ -15,7 +15,7 @@ f1_centers = []
 for u in range(-2,3):
     for v in range(-2,3):
 
-        x = np.sqrt(3) * R * u + 3/2 * R * v
+        x = np.sqrt(3) * R * u + np.sqrt(3)/2 * R * v
         y = 3/2 * R * v
 
         #Step 3 Assign the frequencies
